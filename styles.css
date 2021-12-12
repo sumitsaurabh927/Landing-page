@@ -1,0 +1,41 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* variables */
+:root {
+    --background-color: #1F2937;
+    --txt-color: #F9FAF8;
+    --header-logo-size: 24px;
+    --header-link-size: 18px;
+}
+
+/* navbar */
+.hero {
+    background-color: var(--background-color);
+}
+
+.navbar {
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--txt-color);
+
+}
+
+.left-nav {
+    font-size: var(--header-logo-size);
+}
+
+.link {
+    padding: 0 2rem;
+    color: var(--txt-color);
+    font-size: var(--header-link-size);
+    text-decoration: none;
+}
