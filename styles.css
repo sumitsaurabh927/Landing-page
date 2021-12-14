@@ -14,6 +14,11 @@
     --txt-color: #F9FAF8;
     --header-logo-size: 24px;
     --header-link-size: 18px;
+    --header-size: 48px;
+    --img-color:#6d747d;
+    --header-txt-color: #E5E7EB;
+    --btn-bg:#3882F6;
+    --btn-size: 18px;
 }
 
 /* navbar */
@@ -38,4 +43,48 @@
     color: var(--txt-color);
     font-size: var(--header-link-size);
     text-decoration: none;
+}
+/* main section of hero */
+.main{
+    margin: 6rem 10rem;
+    color: var(--txt-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0rem 8rem 0rem;
+}
+.left-main{
+    display: flex;
+    flex-direction: column;
+}
+.right-main{
+    background-color: var(--img-color);
+    /* min-width: 20rem; */
+    width: 55%;
+    margin: 0rem 2rem;
+    padding: 5rem 3rem 5rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-header{
+    font-size: var(--header-size);
+    margin-right: 25rem;
+    font-weight: bolder;
+}
+.main-txt{
+    font-size: var(--header-link-size);
+    color: var(--header-txt-color);
+    /* margin-right: 25rem; */
+    padding: 0.2rem 0rem;
+    margin: 0.5rem 25rem 0.5rem 0rem;
+}
+.btn{
+    background-color: var(--btn-bg);
+    color: var(--txt-color);
+    align-self: flex-start;
+    padding: 0.2rem 2rem;
+    font-size: var(--btn-size);
+    /* margin: 1rem 0; */
+    border-radius: 0.6rem;
+    font-weight: bold;
 }
