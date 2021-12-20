@@ -15,10 +15,11 @@
     --header-logo-size: 24px;
     --header-link-size: 18px;
     --header-size: 48px;
-    --img-color:#6d747d;
+    --img-color: #6d747d;
     --header-txt-color: #E5E7EB;
-    --btn-bg:#3882F6;
+    --btn-bg: #3882F6;
     --btn-size: 18px;
+    --subtext-color: #555e6b;
 }
 
 /* navbar */
@@ -44,21 +45,24 @@
     font-size: var(--header-link-size);
     text-decoration: none;
 }
+
+/* navbar done */
 /* main section of hero */
-.main{
+.main {
     margin: 6rem 10rem;
     color: var(--txt-color);
     display: flex;
     justify-content: space-between;
     padding: 4rem 0rem 8rem 0rem;
 }
-.left-main{
+
+.left-main {
     display: flex;
     flex-direction: column;
 }
-.right-main{
+
+.right-main {
     background-color: var(--img-color);
-    /* min-width: 20rem; */
     width: 55%;
     margin: 0rem 2rem;
     padding: 5rem 3rem 5rem 3rem;
@@ -66,25 +70,85 @@
     align-items: center;
     justify-content: center;
 }
-.main-header{
+
+.main-header {
     font-size: var(--header-size);
     margin-right: 25rem;
     font-weight: bolder;
 }
-.main-txt{
+
+.main-txt {
     font-size: var(--header-link-size);
     color: var(--header-txt-color);
-    /* margin-right: 25rem; */
     padding: 0.2rem 0rem;
     margin: 0.5rem 25rem 0.5rem 0rem;
 }
-.btn{
+
+.btn {
     background-color: var(--btn-bg);
     color: var(--txt-color);
     align-self: flex-start;
     padding: 0.2rem 2rem;
     font-size: var(--btn-size);
-    /* margin: 1rem 0; */
-    border-radius: 0.6rem;
-    font-weight: bold;
+    border-radius: 8px;
+    font-weight: 900;
+    border: none;
 }
+
+/* main section of hero done */
+
+/* main content begins */
+
+/* main-content-one begins */
+.flex-main {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-content-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.main-heading {
+    margin-bottom: 6rem;
+}
+
+.carousel-items {
+    display: flex;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    min-width: 60%;
+    justify-content: space-between;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    max-width: 11rem;
+    margin: 1rem 0rem;
+    color: var(--subtext-color);
+}
+
+.img {
+    width: 12rem;
+    height: 12rem;
+    border: 2px solid var(--btn-bg);
+    border-radius: 15px;
+}
+
+.holder {
+    height: 50rem;
+}
+
+/* main-content-one ends */
+
+/* main content ends */
