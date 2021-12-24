@@ -23,6 +23,8 @@
     --quote-bg: #e5e7eb;
     --quote-size: 36px;
     --quote-color: #1F2937;
+    --cta-color: #3b82f6;
+    --copy-bg: #1f2937;
 }
 
 /* navbar */
@@ -148,10 +150,6 @@
     border-radius: 15px;
 }
 
-.holder {
-    height: 50rem;
-}
-
 /* main-content-one ends */
 /* main-content-two starts */
 .main-content-two {
@@ -177,4 +175,61 @@
 
 /* main-content-two ends */
 
+/* main-content-three starts */
+.main-content-three {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta {
+    background-color: var(--cta-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    min-width: 80%;
+    padding: 6rem 2rem;
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.cta-txt {
+    color: var(--txt-color);
+    position: absolute;
+    left: 14%;
+    align-self: center;
+}
+
+.cta-btn {
+    align-self: center;
+    position: absolute;
+    right: 15%
+}
+
+.cta-button {
+    color: var(--txt-color);
+    background-color: var(--cta-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid var(--txt-color);
+    border-radius: 5px;
+    padding: 0.2rem 2.3rem;
+}
+
+.copyright {
+    background-color: var(--copy-bg);
+    color: var(--txt-color);
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.8% 0;
+    font-size: 1.1rem;
+}
+
+/* main-content-three ends */
+
+
 /* main content ends */
+/* ----------------------------------------------- */
